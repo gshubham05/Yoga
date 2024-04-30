@@ -16,33 +16,18 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-
-    * {
-        transition: all 0.3s ease-out;
-    }
-    
     .card {
-        display: block;
         top: 0px;
-        position: relative;
         background-color: #f2f8f9;
-        border-radius: 10px;
-        padding: 40px 64px; /* Increased padding horizontally */
-        margin: 6px auto; /* Center the card and adjust margin */
+        border-radius: 6px;
+        
         text-decoration: none;
         overflow: hidden;
-        border: 1px solid #f2f8f9;
-        max-width: 900px; /* Set maximum width to prevent it from becoming too wide */
-        text-align: left;
-    }
-    
-    .go-corner {
-        opacity: 0.10;
+       
     }
     
     .card:hover {
-        border: 1px solid #00838d;
+        border: 7px solid #00838d;
         box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
         z-index: 500;
     }
@@ -51,16 +36,17 @@
         color: #00838d;
     }
     
-    .card:hover .go-corner {
-        transition: opactiy 0.3s linear;
-        opacity: 1;
-    }
     .card-img-top {
         margin-right: 90px; /* Adjust this value to move the image to the left */
-        margin-left: -45px; 
+        margin-left: 15px; 
     }
     
-
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start; /* Align text to the left */
+    }
 </style>
 
 
@@ -130,11 +116,11 @@
             <div class="row">
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
                     <div class="services">
-                        <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex  mb-4">
                             <div class="card h-100">
                                 <img src="images/outdoor.jpg" class="card-img-top" alt="..." style ="height: 200px; width:250px;">
                                 <div class="card-body">
-                            <div class="icon mr-3 d-flex align-items-center justify-content-center"></div>
+                            <div class="icon mr-3 d-flex  justify-content-center"></div>
                             <h2 class="heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Outdoor Activites</h2>
                         </div><br>
                         <div class="media-body">
@@ -148,7 +134,7 @@
 
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
                     <div class="services">
-                        <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex mb-4">
                             <div class="card h-100">
                                 <img src="NewImages/trainer.jpg" class="card-img-top" alt="..." style ="height: 200px; width:250px;">
                                 <div class="card-body">
