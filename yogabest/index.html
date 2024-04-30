@@ -16,45 +16,43 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-    /* CSS for the card */
-    .card {
+    @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+    * {
+        transition: all 0.3s ease-out;
+      }
+      .card {
+        display: block;
+        top: 0px;
         position: relative;
+        background-color: #f2f8f9;
+        border-radius: 10px;
+        padding: 42px 34px;
+        margin: 6px;
+        text-decoration: none;
         overflow: hidden;
-    }
+        border: 1px solid #f2f8f9;
+        
+        .go-corner {
+          opacity: 0.10;
+        }
+      
+        &:hover {
+          border: 1px solid #00838d;
+          box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
+          z-index: 500;
+        }
+      }
+      
+      .card:hover {
+        p{color: #00838d}
+        .go-corner {
+          transition: opactiy 0.3s linear;
+          opacity: 1;
+        }
+      }
 
-    /* CSS for the line hover effect */
-    .card::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 2px solid transparent; /* Transparent border */
-        transition: border-color 0.3s ease;
-        pointer-events: none; /* Allows pointer events to pass through */
-    }
-
-    /* CSS for the hover effect when clicked */
-    .card.clicked::before {
-        border-color: rgba(0, 128, 0, 0.6); /* Light green border */
-    }
 </style>
 
-<script>
-    // Assuming you have multiple card elements with the class 'card'
-    const cards = document.querySelectorAll('.card');
-
-    cards.forEach(card => {
-        card.addEventListener('click', () => {
-            // Remove 'clicked' class from all cards
-            cards.forEach(c => c.classList.remove('clicked'));
-            
-            // Add 'clicked' class to the clicked card
-            card.classList.add('clicked');
-        });
-    });
-</script>
 
 
 <body>
@@ -124,10 +122,10 @@
                     <div class="services">
                         <div class="d-flex align-items-center mb-4">
                             <div class="card h-100">
-                                <img src="images/outdoor.jpg" class="card-img-top" alt="..." style ="height: 200px;">
+                                <img src="images/outdoor.jpg" class="card-img-top" alt="..." style ="height: 200px; width:200px;">
                                 <div class="card-body">
                             <div class="icon mr-3 d-flex align-items-center justify-content-center"></div>
-                            <center><h2 class="heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Outdoor Activites</h2></center>
+                            <h2 class="heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Outdoor Activites</h2>
                         </div><br>
                         <div class="media-body">
                             <p>Discover the peace of yoga in the midst of nature, with the Himalayas and the Ganges river as your backdrop.
@@ -144,11 +142,11 @@
                             <div class="card h-100">
                                 <img src="NewImages/trainer.jpg" class="card-img-top" alt="..." style ="height: 200px; width:200px;">
                                 <div class="card-body">
-                            <h2 class="heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Experienced Trainers</h2>
+                            <h2 class="heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Experienced Trainers</h2><br>
                         </div>
                         <div class="media-body">
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        </div>
+                            <p>With years of dedicated training and teaching experience,We brings a wealth of knowledge and a deep passion for yoga to every class. Their holistic approach integrates physical postures, breathwork, meditation, and yogic philosophy to promote overall well-being.</p>
+                          </div>
                     </div>
                     </div>
                     </div>
@@ -156,13 +154,18 @@
                 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
                     <div class="services">
                         <div class="d-flex align-items-center mb-4">
-                            <div class="icon mr-3 d-flex align-items-center justify-content-center"><span class="flaticon-lotus-flower"></span></div>
-                            <h3 class="heading mb-0">Happy <br>Environment</h3>
+                            <div class="card h-100">
+                                <img src="NewImages/happy.jpg" class="card-img-top" alt="..." style ="height: 200px; width:210px;">
+                                <div class="card-body">
+                            <div class="icon mr-3 d-flex align-items-center justify-content-center"></div>
+                            <h2 class="heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Happy Environment</h2><br>
                         </div>
                         <div class="media-body">
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                            <p>Every class is infused with joy, laughter, and a sense of togetherness. We believe in creating a space where everyone feels welcomed, valued, and free to express themselves authentically.</p>
                         </div>
                     </div>
+                </div>
+                </div>
                 </div>
             </div>
         </div>
