@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	/*this defines what 1 rem is.
+	by using rem we will make the entire layout of the webpage dependent on the font-size. We can now simply change the font size
+	and all the measurements in rem will scale up or down accordingly. Huge time-saver compared to useing pixels.
+	Order of media queries for it to work: always the larger ones before the smaller ones
+	*/
+	font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+	@include respond(tab-land) {
+		//width < 1200?
+		font-size: 56.25%; //1 rem = 9px; 9/16 = 56.25%
+	}
+
+	@include respond(tab-port) {
+		//width < 900?
+		font-size: 50%; //1 rem = 8px; 8/16 = 50%
+	}
+
+	@include respond(big-desktop) {
+		//width > 1800?
+		font-size: 75%; //1 rem = 12px; 12/16 = 75%
+	}
+}
+
+body {
+	box-sizing: border-box;
+	padding: 3rem;
+
+	@include respond(tab-port) {
+		padding: 0;
+	}
+
+	::selection {
+		background-color: $color-primary;
+		color: $color-white;
+	}
+}
