@@ -11,6 +11,15 @@
     color: black;
     letter-spacing: 1px;
 }
+
+/* .start-form-enroll form label::before {
+    content: "*";
+    color: #6cae22;
+    position: absolute;
+    top: -10px;
+    font-size: 20px;
+    line-height: 2.4rem;
+} */
 .btn {
     margin-top: 10px;
     background-color: #6cae22;
@@ -26,10 +35,4 @@
     letter-spacing: 1px;
     line-height: auto;
     transition: all 0.3s ease 0s;
-}
-.bg
-{
-   
-   
-    
 }
