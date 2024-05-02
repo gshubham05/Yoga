@@ -1,0 +1,23 @@
+.contact-form input[type=text], .select-dropdown{
+    border-radius: 20px;
+}
+.contact-form ::placeholder
+{
+    color:#4c4c4c !important ;
+}
+    .btn {
+        margin-top: 10px;
+        background-color: #6cae22;
+        color: white;
+        padding: 10px 24px;
+        border: none;
+        border-radius: 25px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        letter-spacing: 1px;
+        line-height: auto;
+        transition: all 0.3s ease 0s;
+    }

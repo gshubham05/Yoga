@@ -1,0 +1,38 @@
+
+.Direct-Link .col-md-2 {
+    margin-top: -4.2%;
+    background-color: #6cae22;
+    text-align: center;
+    color: #fff;
+    border-right: 2px dotted #fff;
+    padding: 10px 0;
+}
+.section-start h4{
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn {
+    margin-top: 10px;
+    background-color: #6cae22;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: auto;
+    transition: all 0.3s ease 0s;
+}
+.section-start .heading-section ,.feature-wrap,.about-Rishikesh, .about-yogamaya ,.yogamaya-meditation
+{
+    padding: 30px;
+    box-shadow: 0 2px 8px 0 rgb(103 151 255 / 9%), 0 4px 32px 0 rgb(103 151 255 / 9%);
+    border: 1px solid rgba(0, 0, 0, .125);
+    position: relative;
+    z-index: 1;
+    background: #fff;
+}
