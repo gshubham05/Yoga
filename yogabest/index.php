@@ -52,52 +52,9 @@
 
 
 <body>
-    <div class="wrap">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-12 col-md d-flex align-items-center">
-                    <p class="mb-0 phone"><span class="mailus"><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="#" class="fw-large"><span class="__cf_email__ " data-cfemail="67020a060e0b14060a170b0227020a060e0b4904080a"> yoganmaya23@gmail.com</span></a></p>
-                </div>
-                <div class="col-12 col-md d-flex justify-content-md-end">
-                    <div class="social-media">
-                        <p class="mb-0 d-flex">
-                            <span class="mailus"><i class="fa fa-phone " aria-hidden="true" pt-2></i> </span><a href="#"> +91 7060705799</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">yoganMaya</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="fa fa-bars"></span> Menu
-</button>
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="trainer.html" class="nav-link">Trainer</a></li>
-                    <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Retreats
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="ayurvedic.html">Yoga and Ayurvedic Detoxificaton Retreat</a>
-                          <a class="dropdown-item" href="anti.html">Yoga and Anti-Stress Retreat</a>
-                        </div>
-                      </li>
-                    <li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                    <li class="nav-item" ><a href="enroll.html" class="enroll-button">Enroll Now</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
+    <?php
+    include('header.php');
+    ?>
     <section class="hero-wrap degree-right js-fullheight" style="background-image:url(images/bg_1.jpg);">
         <div class="overlay"></div>
         <div class="overlay-2"></div>
@@ -107,7 +64,7 @@
                     <div class="mb-5">
                         <span class="subheading">Welcome to yoganMaya</span>
                         <h1 class="mb-4">Yoga Enhances Your Life</h1>
-                        <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+                        <p class="mb-4">Elevate Your Mind, Strengthen Your Body, and Cultivate Inner Peace Through the Timeless Practice of Yoga: Embark on a Journey of Self-Discovery and Wellness.</p>
                     </div>
                 </div>
             </div>
@@ -645,89 +602,9 @@
             </div>
         </div>
     </section>
-    <footer class="ftco-footer">
-        <div class="container">
-            <div class="row mb-5 justify-content-between">
-                <div class="col-sm-12 col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2 logo"><a href="#">yoganMaya</a></h2>
-                        <p>Far far away, behind the word mountains, far from the countries.</p>
-                        <ul class="ftco-footer-social list-unstyled mt-2">
-                            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <div class="ftco-footer-widget mb-4 ml-md-4">
-                        <h2 class="ftco-heading-2">Recent Blog</h2>
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="#">Yoga practices to boost happiness</a></h3>
-                                <div class="meta">
-                                    <div><a href="#"><span class="fa fa-calendar"></span> Oct. 06, 2020</a></div>
-                                    <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
-                                    <div><a href="#"><span class="fa fa-comment"></span> 19</a></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="block-21 mb-4 d-flex">
-                            <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
-                            <div class="text">
-                                <h3 class="heading"><a href="#">Yoga practices to boost happiness</a></h3>
-                                <div class="meta">
-                                    <div><a href="#"><span class="fa fa-calendar"></span> Oct. 06, 2020</a></div>
-                                    <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
-                                    <div><a href="#"><span class="fa fa-comment"></span> 19</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-2">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Explore</h2>
-                        <ul class="list-unstyled">
-                            <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
-                            <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-                            <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Classes</a></li>
-                            <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Schedule</a></li>
-                            <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md">
-                    <div class="ftco-footer-widget mb-4">
-                        <h2 class="ftco-heading-2">Have a Questions?</h2>
-                        <div class="block-23 mb-3">
-                            <ul>
-                                <li><span class="icon fa fa-map marker"></span><span class="text">A1, Tirupati Apartments, Lane No 2 , Aambagh Rishikesh</span></li>
-                                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">7060705799</span></a></li>
-                                <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text"><span class="__cf_email__" data-cfemail="1e777078715e67716b6c7a71737f7770307d7173">yoganmaya23@gmail.com</span></span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid px-0 py-5 bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="mb-0" style="color: rgba(255,255,255,.5);">
-                            Copyright &copy;
-                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://CodeWareITPvtLtd.com" target="_blank" rel="nofollow noopener">CodeWareITPvtLtd</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php
+        include 'footer.php';
+    ?>
 
     <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" /><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
     <script src="js/jquery.min.js"></script>

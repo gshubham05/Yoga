@@ -1,5 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link
 			href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
 			rel="stylesheet"
@@ -9,92 +13,96 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC6RR4H" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
         <link rel="stylesheet" href="css/style.css" />
-
-</head>
-<body>
-      <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC6RR4H" height="0" width="0"
-    style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-</body>
+        
 
 <style>
   
-    .button-container {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        margin-top: -4.2%;
-        
-    }
-    
-    .button-container a {
-        margin-right: 0px; 
-        text-decoration: none;
-    }
-    
-    .button-container a.btn {
-        padding: 17px 62px; 
-        font-size: 20px; 
-        background-color: #6cae22;
-        border-right: 2px dotted #fff;
-        color: #fff; 
-        text-align: center; 
-    }
-    .boxImage {
-        overflow: hidden; 
-        width: 300px; 
-        height: 350px; 
-        margin: 0 auto;
-        text-align: center; 
-        
-     }
-    
-    .boxImage img {
-        width: 90%; 
-        height: 90%;
-        
-        
-    }
-    .boxSection { 
-        padding: 60px;
-        
-    }
+  .button-container {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      margin-top: -4.2%;
+      
+  }
+  
+  .button-container a {
+      margin-right: 0px; 
+      text-decoration: none;
+  }
+  
+  .button-container a.btn {
+      padding: 17px 62px; 
+      font-size: 20px; 
+      background-color: #6cae22;
+      border-right: 2px dotted #fff;
+      color: #fff; 
+      text-align: center; 
+  }
+  .boxImage {
+      overflow: hidden; 
+      width: 300px; 
+      height: 350px; 
+      margin: 0 auto;
+      text-align: center; 
+      
+   }
+  
+  .boxImage img {
+      width: 90%; 
+      height: 90%;
+      
+      
+  }
+  .boxSection { 
+      padding: 60px;
+      
+  }
 
-    .boxImage img {
-       
-        max-width: 100%; 
-    }
+  .boxImage img {
+     
+      max-width: 100%; 
+  }
 
-    .boxContent {
-        margin-top: -10px;
-        margin-left: 100px; 
-        max-width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    }
-    .align-self-center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%; /* Fill the height of the column */
-    }
-    .text-content {
-        padding-left: 150px; 
-    }
-    .details-images{
-        overflow: hidden; 
-        width: 400px; 
-        height: 400px; 
-        margin: 0 auto;
-        text-align: center; 
-    }
-    .details-images img{
-        max-width: 50%;  
-        width: 65%; 
-        height: 45%;
-    }
+  .boxContent {
+      margin-top: -10px;
+      margin-left: 100px; 
+      max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  }
+  .align-self-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100%; /* Fill the height of the column */
+  }
+  .text-content {
+      padding-left: 150px; 
+  }
+  .details-images{
+      overflow: hidden; 
+      width: 400px; 
+      height: 400px; 
+      margin: 0 auto;
+      text-align: center; 
+  }
+  .details-images img{
+      max-width: 50%;  
+      width: 65%; 
+      height: 45%;
+  }
 </style>
+</head>
+<body>
+    
+   <!-- Google Tag Manager (noscript) -->
+   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC6RR4H" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+<?php
+    include 'header.php';
+    ?>
       <section class="hero-wrap " style="background-image:url(images/yoga.jpg); height:650px;background-size:cover; background-position: center center;">
          <div class="overlay"></div>
          <div class="overlay-2"></div>
@@ -272,3 +280,11 @@
           
           </div>
         </main>
+        <?php
+        include 'footer.php';
+    ?>
+    
+</body>
+</html>
+
+   

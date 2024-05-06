@@ -24,56 +24,23 @@
       <link rel="stylesheet" href="css/anti.css">
    </head>
    <body>
-      <div class="wrap">
-         <div class="container">
-            <div class="row justify-content-between">
-               <div class="col-12 col-md d-flex align-items-center">
-                  <p class="mb-0 phone"><span class="mailus"><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="#" class="fw-large"><span class="__cf_email__ " data-cfemail="67020a060e0b14060a170b0227020a060e0b4904080a"> yoganmaya23@gmail.com</span></a></p>
-               </div>
-               <div class="col-12 col-md d-flex justify-content-md-end">
-                  <div class="social-media">
-                     <p class="mb-0 d-flex">
-                        <span class="mailus"><i class="fa fa-phone " aria-hidden="true" pt-2></i> </span><a href="#"> +91 7060705799</a>
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-         <div class="container">
-            <a class="navbar-brand" href="index.html">yoganMaya</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fa fa-bars"></span> Menu
-            </button>
-            <div class="collapse navbar-collapse" id="ftco-nav">
-               <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                  <li class="nav-item"><a href="trainer.html" class="nav-link">Trainer</a></li>
-                  <li class="nav-item"><a href="classes.html" class="nav-link">Classes</a></li>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     Retreats
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ayurvedic.html">Yoga and Ayurvedic Detoxificaton Retreat</a>
-                        <a class="dropdown-item" href="anti.html">Yoga and Anti-Stress Retreat</a>
+   <?php
+    include 'header.php';
+    ?>
+     <section class="hero-wrap" style="background-image:  url('images/background1.jpg');height: 550px; background-size:cover; background-position: center center;">
+      <div class="overlay"></div>
+      <div class="overlay-2"></div>
+      <div class="container">
+             <div class="row no-gutters slider-text js-fullheight" style="padding-top: 10%;" data-scrollax-parent="true">
+                     <div class="pt-" >
+                         <span class="subheading pt-5" style="font-size: 30px;" > Yoga is the journey of the self,<br> through the self, to the self</span>
+                         <h1 class="text-white fw-500 pt-3" style="font-size: 32px;" >Yoga and Anti-Stress Retreat</h1>
+                         <p class=""></p>
                      </div>
-                  </li>
-                  <li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
-                  <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                  <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                  <li class="nav-item" ><a href="enroll.html" class="enroll-button">Enroll Now</a></li>
-               </ul>
-            </div>
-         </div>
-      </nav>
-      <section class="hero-wrap " style="background-image:url(images/-1.jpg); height:650px;background-size:cover; background-position: center center;">
-         <div class="overlay"></div>
-         <div class="overlay-2"></div>
-         </div>
-      </section>
+             </div>
+      </div>
+      </div>
+   </section>
       <section class="py-5">
          <div class="container">
             <div class="Direct-Link" >
@@ -113,19 +80,19 @@
                         <p>Furthermore, Ancient Healing Wisdom emphasizes the importance of prevention, self-care, and cultivating a deeper understanding of oneself and one's place in the world. By embracing these principles, individuals can enhance their physical, mental, and emotional health, leading to a more balanced and fulfilling life in the modern age.</p>
                      </div>
                      <div class="feature-wrap justify-content-center p-2 mt-5">
-                        <img src="C:\Users\acer\Desktop\Yoga\yogabest\images\anti3.jpg">
+                        <img src="images/anti3.jpg">
                         <small>
                            <h4 class="fw-bold mt-2">From Anxiety to Harmony</h4>
                         </small>
                         <p>Shirodhara, an ancient Ayurvedic therapy, promotes physical relaxation, mental and emotional harmony through the application of warm, herbal-infused oil onto the forehead. This treatment reduces stress, improves sleep quality, enhances cognitive function, and promotes inner peace, aiding in anxiety, depression, and mood imbalances. It also enhances hair texture and scalp condition.</p>
                      </div>
                      <div class="yoganMaya about-Rishikesh mt-5">
-                        <img src="C:\Users\acer\Desktop\Yoga\yogabest\images\anti-3.jpg" class="img-fluid" alt="" width="550px" height="269px">
+                        <img src="images\anti-3.jpg" class="img-fluid" alt="" width="550px" height="269px">
                         <h4 class="mt-2">Ayurvedic Anti Stress Program in Rishikesh</h4>
                         <p>Whether you're seeking relief from chronic stress, anxiety, or simply a reprieve from the demands of modern life, our Ayurvedic Anti-Stress Program offers a holistic approach to wellness that will leave you feeling rejuvenated, revitalized, and ready to embrace life with renewed energy and clarity. Experience the transformative power of Ayurveda in the spiritual heart of India, and embark on a journey towards lasting well-being and inner harmony.</p>
                      </div>
                      <div class="yoganMaya about-yogamaya mt-5 mt-5 ">
-                        <img src="C:\Users\acer\Desktop\Yoga\yogabest\images\anti-4.jpg" class="img-fluid" alt="" width="550px" height="269px">
+                        <img src="images\anti-4.jpg" class="img-fluid" alt="" width="550px" height="269px">
                         <h4 class="mt-2">Ayurvedic Anti Stress Program By YoganMaya</h4>
                         <p> Whether you're a seasoned yogi or just beginning your wellness journey, <span style="color: #6cae22; font-weight: bold;">Yognmaya</span> is here to guide you towards greater health, happiness, and fulfillment. Step onto the path of holistic wellness with us and discover the transformative power of self-care, mindfulness, and inner peace. Welcome to Yogamaya – where wellness meets wisdom, and transformation begins.</p>
                      </div>
@@ -136,7 +103,7 @@
                      </div>
                   </article>
                </div>
-               <div class="col-md-5">
+               <div class="col-md-5 mt-5">
                   <aside>
                      <div class="side-wrap sidebar" style=" box-shadow:0 10px 30px rgb(0 0 0 / 8%);border-top:5px solid #6cae22;margin-top:0px;border-radius:.1rem;padding: 20px ">
                         <h4>Retreat Program Details</h4>
@@ -171,8 +138,8 @@
                            </p>
                         </div>
                         <div class="text-center">
-                           <a href="enroll.html" class="btn">Enroll Now</a>
-                           <a href="contact.html" class="btn">Enquiry</a>
+                           <a href="enroll.php" class="btn">Enroll Now</a>
+                           <a href="contact.php" class="btn">Enquiry</a>
                         </div>
                      </div>
                   </aside>
@@ -198,7 +165,7 @@
                         <h6 class="post-title">
                            Ayurvedic Full Body Massage
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">Ayurvedic full body massage is not only a physical therapy but also a deeply rejuvenating and balancing experience for the mind, body, and spirit..</p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -209,7 +176,7 @@
                         <h6 class="post-title">
                            Polti Massage (Bundle Massage)
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">Potli massage is a deeply rejuvenating experience, blending the healing properties of herbs with therapeutic massage.offering unique relaxation and rejuvenation.</p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -220,7 +187,7 @@
                         <h6 class="post-title">
                            Marma Point Massage
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">marma point massage offers a gentle yet powerful way to harmonize the body's energies, promote relaxation, and support overall health and vitality.</p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -231,7 +198,7 @@
                         <h6 class="post-title">
                            Sirodha
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">Sirodhara massage a profound healing modality deeply rooted in the wisdom of Ayurveda, offering holistic benefits  physical and mental well-being. </p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -242,7 +209,7 @@
                         <h6 class="post-title">
                            Upper Back Basti
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">An upper back massage can help alleviate muscle tension, improve range of motion, and promote relaxation and well-being in the targeted area.</p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -253,7 +220,7 @@
                         <h6 class="post-title">
                            Lower Back Basti
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description"> A lower back massage focuses on the muscles and tissues in the lumbar region of the back, which is the area between the ribcage and the pelvis. </p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -264,7 +231,7 @@
                         <h6 class="post-title">
                            Knee Basti
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">Knee Basti is a deeply nourishing and therapeutic Ayurvedic treatment that helps alleviate knee pain, improve joint mobility, and promote overall joint health and well-being. </p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -275,7 +242,7 @@
                         <h6 class="post-title">
                            Nabhi Basti
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">Nabhi Basti is believed to promote overall well-being by balancing the body's energy and enhancing the functioning of various organs and systems. </p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -286,7 +253,7 @@
                         <h6 class="post-title">
                            Head and Neck Massage
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">A head and neck massage offers a soothing and rejuvenating experience, helping to relieve stress, promote relaxation, and restore balance to the mind and body.</p>
                      </div>
                   </div>
                   <div class="post-slide">
@@ -297,7 +264,7 @@
                         <h6 class="post-title">
                            Ayurvedic Facial
                         </h6>
-                        <p class="post-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......</p>
+                        <p class="post-description">Ayurvedic facial massage offers a luxurious and rejuvenating experience that promotes both inner and outer beauty, leaving the skin glowing and the mind deeply relaxed.</p>
                      </div>
                   </div>
                </div>
@@ -313,7 +280,7 @@
                   <span>Join Our Ayurvedic Anti Stress Program at YoganMaya</span>
                </div>
             </div>
-            <div class="row">
+            <div class="row mt-2">
                <div class="col-md-7">
                   <table class="table table-bordered table-hover">
                      <br>
@@ -377,7 +344,7 @@
                      </tr>
                   </table>
                </div>
-               <div class="col-md-5">
+               <div class="col-md-5 mt-2">
                   <div class="contact-form border p-3 mt-5 ">
                      <div class="row justify-content-between pb-2">
                         <div class="col-md-12 heading-section text-center ">
@@ -385,17 +352,37 @@
                            <h2 class="mb-2 text-capitalize">Quick Form</h2>
                         </div>
                      </div>
-                     <form>
-                        <input type="text" class="form-control mb-4" placeholder="name*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
-                        <input type="text" class="form-control mb-4" placeholder="Email*" required  style="box-shadow: 0 5px 10px  #6dae2228!important;">
-                        <input type="text" class="form-control mb-4" placeholder="Enter WhatsApp / Mobile No.*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
-                        <input type="text" class="form-control mb-4" placeholder="Country*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
-                        <input type="text" class="form-control mb-4" placeholder="Write Here*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
-                        <button class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4 mb-2" type="submit">Send Now</button>
+                     <form method="post">
+                        <input type="text" name="n" class="form-control mb-4" placeholder="name*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
+                        <input type="text" name="e" class="form-control mb-4" placeholder="Email*" required  style="box-shadow: 0 5px 10px  #6dae2228!important;">
+                        <input type="text" name ="ph" class="form-control mb-4" placeholder="Enter WhatsApp / Mobile No.*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
+                        <input type="text" name ="co" class="form-control mb-4" placeholder="Country*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
+                        <input type="text" name="dis" class="form-control mb-4" placeholder="Write Here*" required style="box-shadow: 0 5px 10px  #6dae2228!important;">
+                        <button class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4 mb-2" name="submit" type="submit">Send Now</button>
                      </form>
+                     <?php
+             $con = mysqli_connect("localhost", "root", "", "yoga");
+
+             if(isset($_REQUEST['submit'])) {
+                 $n = $_REQUEST['n'];
+                 $e = $_REQUEST['e'];
+                 $ph = $_REQUEST['ph'];
+                 $co = $_REQUEST['co']; 
+                 $d = $_REQUEST['dis']; // Corrected variable name
+             
+                 $q = "INSERT INTO quickForm (name, email, phone, country, message) VALUES ('$n', '$e', '$ph', '$co',  '$d')";
+                 
+                 if(mysqli_query($con, $q)) {
+                     echo "<script>alert('Registered successfully');</script>";
+                 } else {
+                     echo "<script>alert('Error: " . mysqli_error($con) . "');</script>"; 
+                 }
+             }
+             
+            ?>
                   </div>
                </div>
-               <div class="not bg-warning text-dark mt-0 " style="margin-top: -20px;">
+               <div class="not bg-warning text-dark mt-2 " style="margin-top: -20px;">
                   <h4>Note:</h4>NOTE:
                   <span>1. Schedules are subject to change</span><br>
                   <span>2. Two Time Meals & One Time Snacks / fruits (This is an ideal way to eat as per Yoga & Ayurveda)</span><br>
@@ -412,8 +399,9 @@
                   <h2 class="mb-2 text-capitalize" id="duration">Program Fee & Duration</h2>
                   <span>Join Our Ayurvedic Anti Stress Program at YoganMaya</span>
                </div>
-               <div class="row">
+               <div class="row mt-2">
                   <div class="col-md-12">
+                     <div class="table-responsive">
                      <table class="table table-bordered table-hover mt-3 text-center">
                         <thead>
                            <tr class="">
@@ -439,7 +427,7 @@
                               <td>₹37,200</td>
                               <td>$665</td>
                               <td>₹53,200</td>
-                              <td>Enroll Now</td>
+                              <td style ="color:#6cae22"><a href="enroll.php">Enroll Now</a></td>
                            </tr>
                            <tr>
                               <td class="td-bg">13 Nights / 14 Days</td>
@@ -447,7 +435,7 @@
                               <td>₹79,600</td>
                               <td>$1,335</td>
                               <td>₹1,06,800</td>
-                              <td>Enroll Now</td>
+                              <td style ="color:#6cae22"><a href="enroll.php">Enroll Now</a></td>
                            </tr>
                            <tr>
                               <td class="td-bg">20 Nights / 14 Days</td>
@@ -455,10 +443,11 @@
                               <td>₹1,22,00</td>
                               <td>$2,035</td>
                               <td>₹1,,800</td>
-                              <td>Enroll Now</td>
+                              <td style ="color:#6cae22"><a href="enroll.php">Enroll Now</a></td>
                            </tr>
                         </tbody>
                      </table>
+            </div>
                      <div class="importance-note bg-warning text-dark p-2">
                         <h4>Note</h4>
                         <span>1. We offer flexible dates for all our retreat programs, allowing you to join according to your personal plans.</span><br>
@@ -469,7 +458,7 @@
             </div>
          </div>
       </section>
-      <section class="food-accommdation " >
+      <section class="food-accommdation mt-2 " >
          <div class="container">
             <div class="row justify-content-between pb-2">
                <div class="col-md-12 heading-section text-center ">
@@ -674,7 +663,7 @@
                            <span class="float-left">English</span>
                         </p>
                         <div class="justify-content-between text-center">
-                        <button class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4" type="submit">Enquiry Now</button>
+                        <a href="enroll.php" class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4" type="submit">Enquiry Now</a>
                      </div>
                      </div>
                   </div>
@@ -717,7 +706,7 @@
                            <span class="float-left">English</span>
                         </p>
                         <div class="justify-content-between text-center">
-                           <button class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4" type="submit">Enquiry Now</button>
+                        <a href="enroll.php" class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4" type="submit">Enquiry Now</a>
                         </div>
                      </div>
                   </div>
@@ -759,96 +748,16 @@
                            <span class="float-left">English</span>
                         </p>
                         <div class="justify-content-between text-center">
-                           <button class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4" type="submit">Enquiry Now</button>
+                        <a href="enroll.php" class="btn btn-lg btn-block btn-primary font-weight-bold EnrollClick mt-3 px-4" type="submit">Enquiry Now</a>
                         </div>
                   </div>
                </div>
             </div>
          </div>
        </section>
-      <footer class="ftco-footer">
-         <div class="container">
-            <div class="row mb-5 justify-content-between">
-               <div class="col-sm-12 col-md">
-                  <div class="ftco-footer-widget mb-4">
-                     <h2 class="ftco-heading-2 logo"><a href="#">yoganMaya</a></h2>
-                     <p>Far far away, behind the word mountains, far from the countries.</p>
-                     <ul class="ftco-footer-social list-unstyled mt-2">
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-sm-12 col-md-4">
-                  <div class="ftco-footer-widget mb-4 ml-md-4">
-                     <h2 class="ftco-heading-2">Recent Blog</h2>
-                     <div class="block-21 mb-4 d-flex">
-                        <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
-                        <div class="text">
-                           <h3 class="heading"><a href="#">Yoga practices to boost happiness</a></h3>
-                           <div class="meta">
-                              <div><a href="#"><span class="fa fa-calendar"></span> Oct. 06, 2020</a></div>
-                              <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
-                              <div><a href="#"><span class="fa fa-comment"></span> 19</a></div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="block-21 mb-4 d-flex">
-                        <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
-                        <div class="text">
-                           <h3 class="heading"><a href="#">Yoga practices to boost happiness</a></h3>
-                           <div class="meta">
-                              <div><a href="#"><span class="fa fa-calendar"></span> Oct. 06, 2020</a></div>
-                              <div><a href="#"><span class="fa fa-user"></span> Admin</a></div>
-                              <div><a href="#"><span class="fa fa-comment"></span> 19</a></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-sm-12 col-md-2">
-                  <div class="ftco-footer-widget mb-4">
-                     <h2 class="ftco-heading-2">Explore</h2>
-                     <ul class="list-unstyled">
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Classes</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Schedule</a></li>
-                        <li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Blog</a></li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-sm-12 col-md">
-                  <div class="ftco-footer-widget mb-4">
-                     <h2 class="ftco-heading-2">Have a Questions?</h2>
-                     <div class="block-23 mb-3">
-                        <ul>
-                           <li><span class="icon fa fa-map marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                           <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                           <li><a href="#"><span class="icon fa fa-paper-plane pr-4"></span><span class="text"><span class="__cf_email__" data-cfemail="1e777078715e67716b6c7a71737f7770307d7173">[email&#160;protected]</span></span></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="container-fluid px-0 py-5 bg-black">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12">
-                     <p class="mb-0" style="color: rgba(255,255,255,.5);">
-                        Copyright &copy;
-                        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                        <script>
-                           document.write(new Date().getFullYear());
-                        </script> All rights reserved | This template is made with <i class="fa fa-heart color-danger" aria-hidden="true"></i> by <a href="https://CodeWareITPvtLtd.com" target="_blank" rel="nofollow noopener">CodeWareITPvtLtd</a>
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
+     <?php
+     include 'footer.php'
+     ?>
       <!-- Link to jQuery -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <!-- Link to Owl Carousel JS -->
