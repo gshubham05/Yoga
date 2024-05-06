@@ -2828,7 +2828,7 @@ h5,
     overflow-x: scroll;
 }
 
-.table {
+/* .table {
     min-width: 1000px !important;
     width: 100%;
     background: #fff;
@@ -2905,7 +2905,7 @@ h5,
 
 .table tfoot tr th a:hover {
     color: #6cae22;
-}
+} */
 
 .ftco-services {
     position: relative;
