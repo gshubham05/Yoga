@@ -16,37 +16,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <style>
-    .card {
-        top: 0px;
-        background-color: #f2f8f9;
-        border-radius: 6px;
+    .services{
+        background-color:rgba(255,255,255,0.8);
+        font-size:1rem;
+        text-align: justify;
+        }
+        @media only screen and (max-width: 56.25em){
+            .services{
+                padding:2rem;
+                margin-bottom:3rem
+            }
+        }
+        .services:hover{
+            transform:translateY(-1.5rem) scale(1.03)
+        }
+        .home_about_pic {
+            position:relative;
+        }
         
-        text-decoration: none;
-        overflow: hidden;
-       
-    }
-    
-    .card:hover {
-        border: 7px solid #00838d;
-        box-shadow: 0px 0px 999px 999px rgba(255, 255, 255, 0.5);
-        z-index: 500;
-    }
-    
-    .card:hover p {
-        color: #00838d;
-    }
-    
-    .card-img-top {
-        margin-right: 90px; /* Adjust this value to move the image to the left */
-        margin-left: 15px; 
-    }
-    
-    .card-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-        align-items: flex-start; /* Align text to the left */
-    }
+        .home_about_pic img {
+            max-width: 50%;
+            height: 80%;
+        }
+        
+        .home_about_text {
+            padding: 20px;
+        }
+        
+        .section-title {
+            margin-bottom: 20px;
+        }
+        
+        .section-title h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .para-2 {
+            margin-top: 20px;
+        }
 </style>
 
 
@@ -85,7 +93,7 @@
                           Retreats
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">Yoga and Ayurvedic Detoxificaton Retreat</a>
+                          <a class="dropdown-item" href="ayurvedic.html">Yoga and Ayurvedic Detoxificaton Retreat</a>
                           <a class="dropdown-item" href="anti.html">Yoga and Anti-Stress Retreat</a>
                         </div>
                       </li>
@@ -110,10 +118,6 @@
                         <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex align-items-center justify-content-center">
-                    <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
-<span class="fa fa-play"></span>
-</a>
                 </div>
             </div>
         </div>
@@ -143,7 +147,7 @@
                     <div class="services">
                         <div class="d-flex mb-4">
                             <div class="card h-100">
-                                <img src="NewImages/trainer.jpg" class="card-img-top" alt="..." style ="height: 200px; width:250px;">
+                                <img src="NewImages/IMG_4482.JPG" class="card-img-top" alt="..." style="height: auto; width: 300px; max-height: 200px; max-width: 280px;transition: transform 0.3s ease;">
                                 <div class="card-body">
                             <h2 class="heading mb-0" style="font-family: 'Times New Roman', Times, serif;">Experienced Trainers</h2><br>
                         </div>
@@ -407,7 +411,7 @@
                 <div class="col-md-6 heading-section pr-md-5 py-5 my-md-5 mb-5 mb-md-0 order-md-last">
                     <span class="subheading">Testimonial</span>
                     <h2 class="mb-4">What They Are Saying</h2>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p>From the moment we engaged with, we knew we were in good hands. Their knowledgeable staff guided us through every step of the process, ensuring a smooth and successful outcome. I highly recommend their services to anyone looking for top-notch quality.</p>
                     <div class="row my-4">
                         <div class="col-lg-6 ftco-animate">
                             <div class="services-3 d-flex align-items-center justify-content-between">
@@ -433,8 +437,7 @@
                             <div class="testimony-wrap">
                                 <div class="text">
                                     <span class="fa">"</span>
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-                                        a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                    <p class="mb-4"> deep knowledge of yoga philosophy and anatomy, combined with his gentle and supportive teaching style, create an environment that is both empowering and nurturing.</p>
                                     <div class="d-flex align-items-center" style="width: 100%;">
                                         <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                                         <div class="pl-3">
@@ -448,8 +451,7 @@
                         <div class="item">
                             <div class="testimony-wrap">
                                 <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-                                        a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                    <p class="mb-4"> Under his guidance, I've not only improved my physical strength and flexibility but also gained a deeper understanding of mindfulness and self-awareness.</p>
                                     <div class="d-flex align-items-center" style="width: 100%;">
                                         <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
                                         <div class="pl-3">
@@ -463,23 +465,7 @@
                         <div class="item">
                             <div class="testimony-wrap">
                                 <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-                                        a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                                    <div class="d-flex align-items-center" style="width: 100%;">
-                                        <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                                        <div class="pl-3">
-                                            <p class="name">Roger Scott</p>
-                                            <span class="position">Marketing Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="testimony-wrap">
-                                <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-                                        a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                    <p class="mb-4">He takes the time to understand each student's unique needs and offers personalized guidance to support their journey. </p>
                                     <div class="d-flex align-items-center" style="width: 100%;">
                                         <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
                                         <div class="pl-3">
@@ -493,8 +479,7 @@
                         <div class="item">
                             <div class="testimony-wrap">
                                 <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-                                        a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                    <p class="mb-4">His personalized approach caters to individuals of all levels, making each class a rewarding experience. I'm grateful for his dedication and highly recommend his classes to anyone seeking to embark on a journey of self-discovery and holistic wellness.</p>
                                     <div class="d-flex align-items-center" style="width: 100%;">
                                         <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
                                         <div class="pl-3">
@@ -510,86 +495,40 @@
             </div>
         </div>
     </section>
-    <section class="ftco-section">
+    <br><br>
+    <section class="ftco-section ftco-services img" style="background-image: url(images/bg_3.jpg)">
+        <div class="overlay"></div>
         <div class="container">
-            <div class="row justify-content-center pb-5">
+            <div class="row justify-content-between pb-5">
                 <div class="col-md-12 heading-section text-center ftco-animate">
-                    <span class="subheading">Yoga Trainer</span>
-                    <h2 class="mb-4">The Best Trainer For You</h2>
+                    <span class="subheading">yoganMaya</span>
+                    <h2 class="mb-4">Our Trainer<br>Pradeep Kainthola</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                    <div class="coach align-items-stretch">
-                        <div class="img" style="background-image: url(images/trainer-1.jpg);"></div>
-                        <div class="text bg-white p-4 ftco-animate text-center">
-                            <span class="subheading">Owner / Head Coach</span>
-                            <h3><a href="#">Elizabeth Nelson</a></h3>
-
-                            <div class="social-media">
-                                <p class="d-flex text-center">
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-twitter"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-facebook"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-instagram"></span></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-5">
+                    <img src="NewImages/IMG_3043.PNG" alt="CodeWareITPvtLtd" class="img-fluid" style="height: 100%;">
                 </div>
-                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                    <div class="coach align-items-stretch">
-                        <div class="img" style="background-image: url(images/trainer-2.jpg);"></div>
-                        <div class="text bg-white p-4 ftco-animate text-center">
-                            <span class="subheading">Owner / Head Coach</span>
-                            <h3><a href="#">Scarlett Torres</a></h3>
-
-                            <div class="social-media">
-                                <p class="d-flex text-center">
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-twitter"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-facebook"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-instagram"></span></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                    <div class="coach align-items-stretch">
-                        <div class="img" style="background-image: url(images/trainer-3.jpg);"></div>
-                        <div class="text bg-white p-4 ftco-animate text-center">
-                            <span class="subheading">Owner / Head Coach</span>
-                            <h3><a href="#">Victoria Wright</a></h3>
-
-                            <div class="social-media">
-                                <p class="d-flex text-center">
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-twitter"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-facebook"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-instagram"></span></a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-                    <div class="coach align-items-stretch">
-                        <div class="img" style="background-image: url(images/trainer-4.jpg);"></div>
-                        <div class="text bg-white p-4 ftco-animate text-center">
-                            <span class="subheading">Owner / Head Coach</span>
-                            <h3><a href="#">Stella Perry</a></h3>
-
-                            <div class="social-media">
-                                <p class="d-flex text-center">
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-twitter"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-facebook"></span></a>
-                                    <a href="#" class="d-flex justify-content-center align-items-center"><span class="fa fa-instagram"></span></a>
-                                </p>
-                            </div>
+                <div class="col-md-12 col-lg-6">
+                    <div class="services-2 d-flex justify-content-between">
+                        <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-mindfulness"></span></div>
+                        <div class="text">
+                            <p><b>Pradeep</b> possesses a rich blend of academic knowledge and practical experience in yoga. From his M.A. in Yoga to his certifications from reputable organizations like Yoga Alliance and INFS, Shubham 
+                                brings a holistic understanding of yoga and wellness to the table.<br> Pradeep understands that each individual's wellness journey is unique. With his background in diet and nutrition, along with specialized training in various yoga styles, Pradeep crafts personalized programs tailored to meet the specific needs and goals of his students.
+                            </p>
+                              <p class="para-2">
+                                  With years of freelancing and professional experience as a yoga trainer, Pradeep has successfully guided numerous individuals towards their wellness goals. His clients testify to his dedication, expertise, and transformative impact on their lives.</p>
+                                  <p class="para-3">
+                                    Whether you're seeking physical fitness, mental clarity, stress relief, or spiritual growth, Pradeep's teachings are designed to deliver transformative results that extend beyond the mat and into every aspect of your life.
+            
+                              </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <section class="ftco-section bg-light">
         <div class="container">
             <div class="row justify-content-center pb-4">
@@ -609,8 +548,8 @@
                                     <a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 10, 2020</a>
                                 </p>
                             </div>
-                            <h3 class="heading"><a href="#">Treat Your Body Like A Temple </a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
+                            <h3 class="heading"><a href="#">The Science Behind the Breath </a></h3>
+                            <p>Delve into the science of Pranayama and its impact on the nervous system, respiratory system, and overall well-being. Learn how conscious breathing techniques can help reduce stress, improve lung function, and enhance mental clarity.</p>
                             <p class="mb-0"><a href="#" class="btn-custom d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i><span class="sr-only">Read more</span></a></p>
                         </div>
                     </div>
@@ -626,7 +565,7 @@
                                 </p>
                             </div>
                             <h3 class="heading"><a href="#">Treat Your Body Like A Temple </a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
+                            <p> Dive into a variety of Pranayama techniques, from calming practices like Nadi Shodhana (Alternate Nostril Breathing) to energizing techniques like Kapalabhati (Skull Shining Breath). Discover how each technique offers unique benefits for body, mind, and spirit.
                             <p class="mb-0"><a href="#" class="btn-custom d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i><span class="sr-only">Read more</span></a></p>
                         </div>
                     </div>
@@ -641,8 +580,8 @@
                                     <a href="#"><span class="fa fa-calendar mr-2"></span>Oct. 10, 2020</a>
                                 </p>
                             </div>
-                            <h3 class="heading"><a href="#">Treat Your Body Like A Temple </a></h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
+                            <h3 class="heading"><a href="#">Understanding Pranayama </a></h3>
+                            <p>We begin by demystifying Pranayama, shedding light on its origins, principles, and significance in yoga philosophy. Discover how this ancient practice goes beyond mere breath control, serving as a gateway to higher consciousness and inner peace.</p>
                             <p class="mb-0"><a href="#" class="btn-custom d-flex align-items-center justify-content-center"><i class="fa fa-chevron-right"></i><span class="sr-only">Read more</span></a></p>
                         </div>
                     </div>
