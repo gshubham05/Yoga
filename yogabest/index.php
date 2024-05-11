@@ -52,55 +52,9 @@
 
 
 <body>
-<<<<<<< HEAD:yogabest/index.php
     <?php
     include('header.php');
     ?>
-=======
-    <div class="wrap">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-12 col-md d-flex align-items-center">
-                    <p class="mb-0 phone"><span class="mailus"><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="#" class="fw-large"><span class="__cf_email__ " data-cfemail="67020a060e0b14060a170b0227020a060e0b4904080a"> yoganmaya23@gmail.com</span></a></p>
-                </div>
-                <div class="col-12 col-md d-flex justify-content-md-end">
-                    <div class="social-media">
-                        <p class="mb-0 d-flex">
-                            <span class="mailus"><i class="fa fa-phone " aria-hidden="true" pt-2></i> </span><a href="#"> +91 7060705799</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">yoganMaya</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="fa fa-bars"></span> Menu
-</button>
-            <div class="collapse navbar-collapse" id="ftco-nav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="trainer.html" class="nav-link">Trainer</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Retreats
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="ayurvedic.html">Yoga and Ayurvedic Detoxificaton Retreat</a>
-                          <a class="dropdown-item" href="anti.html">Yoga and Anti-Stress Retreat</a>
-                        </div>
-                      </li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                    <li class="nav-item" ><a href="enroll.html" class="enroll-button">Enroll Now</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
->>>>>>> 6c17d3571813dba7b75033f9b279502075d4a010:yogabest/index.html
     <section class="hero-wrap degree-right js-fullheight" style="background-image:url(images/bg_1.jpg);">
         <div class="overlay"></div>
         <div class="overlay-2"></div>
