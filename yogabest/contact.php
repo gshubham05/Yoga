@@ -99,7 +99,7 @@
                  $g = $_REQUEST['g'];
                  $d = $_REQUEST['dis']; // Corrected variable name
              
-                 $q = "INSERT INTO conatct (name, email, phone, country, program, gender, message) VALUES ('$n', '$e', '$ph', '$co', '$pr', '$g', '$d')";
+                 $q = "INSERT INTO contact (name, email, phone, country, program, gender, message) VALUES ('$n', '$e', '$ph', '$co', '$pr', '$g', '$d')";
                  
                  if(mysqli_query($con, $q)) {
                      echo "<script>alert('Registered successfully');</script>"; // Display alert using JavaScript

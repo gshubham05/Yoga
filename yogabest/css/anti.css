@@ -241,26 +241,3 @@ position: absolute;
         line-height: auto;
         transition: all 0.3s ease 0s;
     }
-    @media (min-width: 768px) {
-        .post-slide {
-            width: calc(50% - 20px); /* Take half width minus margin on tablets */
-        }
-    }
-    
-    /* Media query for desktops */
-    @media (min-width: 992px) {
-        .post-slide {
-            width: calc(33.33% - 20px); /* Take one-third width minus margin on desktops */
-        }
-    }
-    
-
-    @media (max-width: 768px) {
-        .table-responsive {
-          overflow-x: auto;
-        }
-        .table.table-bordered td,
-        .table.table-bordered th {
-          border: none;
-        }
-      }
